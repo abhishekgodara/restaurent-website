@@ -1,0 +1,99 @@
+body{
+    font-size: 16px;
+    background-color: #61122f;
+    color: #fff;
+    font-family: 'Oxygen',sans-serif;
+}
+
+#header-nav{
+    background-color: #f6b319;
+    border: 0;
+    border-radius: 0;
+}
+
+#logo-image{
+    background: url('');
+    width: 150px;
+    height: 150px;
+    margin: 10px 15px 10px 0;
+
+}
+
+.my-menu {
+    list-style: none;
+    background-color: black;
+    color: white;
+    padding: 2px 5px;
+    width: 100%;
+}
+
+.my-menu li {
+    display: inline;
+    padding: 5px;
+}
+
+@media (min-width=1200px){
+
+}
+
+@media (min-width=992px) and (max-width=1199px){
+
+}
+
+@media (min-width=768px) and (max-width=991px){
+
+}
+
+@media (max-width=767) {
+    
+}
+
+#menu-tile, #specials-tile, #map-tile {
+    height: 250px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid white;
+}
+
+#menu-tile span, #specials-tile span, #map-tile span {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    width: 100%;
+}
+ 
+.category-tile{
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+ 
+.category-tile span{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    width: 100%;
+}
+
+.row {
+    margin: 10px;
+
+}
+
+.dish-item{
+    position: relative;
+}
+
+.dish-item-badge{
+    padding: 0.7em 0.1em;
+        position: absolute;
+        bottom: -0.5em;
+        right: 9.2em;
+        text-align: center;
+        width: 2.7em;
+        background-color: black;
+        border-radius: 2.2em;
+}
